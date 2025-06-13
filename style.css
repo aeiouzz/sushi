@@ -627,6 +627,8 @@ a.active-link {
 
 .footer .footer_content .footer_title {
   font-size: var(--h3-font-size);
+    margin-bottom: 15px;
+  cursor: default;
 }
 
 .footer .footer_content .footer_links {
