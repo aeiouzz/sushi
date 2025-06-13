@@ -1,3 +1,9 @@
+document.querySelectorAll('a[href="#"]').forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+  });
+});
+
 /* 📍 header */
 let scrollHeader = () => {
   let header = document.querySelector('#header');
